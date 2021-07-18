@@ -517,13 +517,19 @@ textarea::-ms-input-placeholder
 .home-details .home-title h1{
 	font-size:60px;
 	font-family: 'nexa_lightregular';
-	letter-spacing:1px;
+    letter-spacing:1px;
+   
 }
 .home-details .home-title h1 span{
 	font-family: 'nexa_boldregular';
 	color:#f1f1f1;
 }
 
+.home-title__h1{
+    width: 30%;
+    border: 1px solid red;
+    text-align: right;
+}
 /* For About Section */
 
 .about-content{
