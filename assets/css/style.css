@@ -423,18 +423,18 @@ textarea::-ms-input-placeholder
 .scroll-down h5{
 	font-size:18px;
 	font-family: 'nexa_boldregular';
-	color:#f1f1f1;
+	color:#ffc20e;
 	letter-spacing:2px;
 }
 .scroll-down a{
 	font-size:50px;
-	color:#f1f1f1;
+	color:#ffc20e;
 	transition:.3s ease-in-out;
 	-webkit-transition:.3s ease-in-out;
 	-moz-transition:.3s ease-in-out;
 }
 .scroll-down a:hover{
-	color:red;
+	color:#ffc20e;
 }
 
 .heading {
@@ -475,7 +475,7 @@ textarea::-ms-input-placeholder
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: red;
+    color: #ffc20e;
     background-color: transparent;
 }
   .navbar-nav {
@@ -518,18 +518,19 @@ textarea::-ms-input-placeholder
 	font-size:60px;
 	font-family: 'nexa_lightregular';
     letter-spacing:1px;
-   
 }
 .home-details .home-title h1 span{
 	font-family: 'nexa_boldregular';
 	color:#f1f1f1;
 }
 
-.home-title__h1{
-    width: 30%;
-    border: 1px solid red;
+.home-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     text-align: right;
 }
+
 /* For About Section */
 
 .about-content{
