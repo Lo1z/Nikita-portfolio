@@ -586,19 +586,20 @@ textarea::-ms-input-placeholder
 	font-size:25px;
 	font-family:'nexa_boldregular';
 }
-.contact-details .contact-category .mail h2{
-	font-size:50px;
-	font-family:'nexa_lightregular';
+.contact-details .contact-category .mail p{
+	font-size: 30px;
+    font-family:'nexa_lightregular';
+    color: #3b3b3b;
 }
-.contact-details .contact-category .phone h5{
-	font-size:40px;
+.contact-details .contact-category .phone p{
+	font-size:30px;
 	font-family:'nexa_lightregular';
 }
 .contact-details .contact-category .social a {
     font-size: 26px;
     color: #202020;
-    border: 2px solid #202020;
-    border-radius: 100%;
+    /* border: 2px solid #202020; */
+    /* border-radius: 100%; */
     height: 45px;
     width: 45px;
 	margin: 10px;
@@ -610,7 +611,7 @@ textarea::-ms-input-placeholder
 	-moz-transition:.3s ease-in-out;
 }
 .contact-details .contact-category .social a :hover{
-    color:red;
+    color:#23527c;
 }
 
 /* For Footer Section */
