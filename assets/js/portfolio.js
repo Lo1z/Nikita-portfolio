@@ -15,7 +15,6 @@ getData('assets/data.json').then(function(data){
 
 
 function renderCardProject(data){
-  console.log(data);
   const  output = `
       <div class="portfolio-item">
         <div class="portfolio-details">
