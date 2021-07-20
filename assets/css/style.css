@@ -540,6 +540,19 @@ textarea::-ms-input-placeholder
 	margin-top:50px;
 }
 
+.btn_downloadCV{
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: all 0.5s;
+}
+.btn_downloadCV:hover{
+    color: #ffffff;
+    background-color:  #337ab7;
+}
+
 /* For Portfolio Section */
 
 .portfolio{
