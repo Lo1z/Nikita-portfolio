@@ -37,7 +37,12 @@ jQuery(document).ready(function ($) {
             enabled: true
         }
     });
-	
+    
+    $('.parent-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+      });
 	/*---------------------------------------------*
      * Menu Background Change
      ---------------------------------------------*/
