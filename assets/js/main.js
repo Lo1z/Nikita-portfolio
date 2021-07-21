@@ -60,14 +60,14 @@ jQuery(document).ready(function ($) {
             });
         
     }
-	$('#bs-example-navbar-collapse-1').localScroll();
+	// $('#bs-example-navbar-collapse-1').localScroll();
 
 
     /*---------------------------------------------*
      * STICKY scroll
      ---------------------------------------------*/
 
-		$.localScroll();
+		// $.localScroll();
 
 
 
